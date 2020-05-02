@@ -96,26 +96,30 @@
   :sporecircle
   {:class :druid,
    :traits
-   [{:name "Споровое облако",
+   [{:name "Облако спор",
      :description
-     "Начиная со второго уровня, вы окружены невидимыми безвредными некротическими спорами, которые безвредны, пока вы не натравите их на существо поблизости Starting at 2nd level, you are surrounded by invisible. necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d4 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC. The necrotic damage increases to 1d6 at 6th level, 1d8 at 10th level, and 1dlO at 14th level. ",
+     "Начиная со второго уровня, Вы окружены невидимыми некротическими спорами, которые безвредны, пока Вы не натравите их на существо поблизости. Когда видимое Вами существо подходит к Вам на расстояние 10 футов или начинает там ход, Вы можете реакцией заставить споры нанести ему 1к4 некротического урона, если оно не пройдёт испытание Телосложения против Вашей сложности заклинаний. Некротический урон увеличивается до 1к6 на 6 уровне, 1к8 на 10 уровне и 1к10 на 14 уровне.",
+     :level 2}
+    {:name "Заклинания круга",
+     :description
+     "Ваша симбиотическая связь с грибами и Ваша способность вмешиваться в цикл жизни и смерти предоставляет Вам доступ к определенным заклинаниям. На 2-м уровне Вы изучаете заговор «Леденящее прикосновение». На 3-м, 5-м, 7-м и 9-м уровнях Вы получаете доступ к заклинаниям, указанным для этого уровня в таблице «Заклинания круга спор».\nДоступное Вам заклинание круга всегда считается у Вас подготовленным, и не учитывается при подсчёте количества заклинаний, которые Вы можете подготавливать. Если Вы получаете доступ к заклинанию, отсутствующему в списке заклинаний друида, оно всё равно будет считаться для Вас заклинанием друида.\n\nЗаклинания круга спор\nУровень друида Заклинания\n3 Глухота/Слепота, Нетленные останки\n5 Восставший труп, Газообразная форма\n7 Усыхание, Смятение\n9 Облако смерти, Заражение",
      :level 2}
     {:name "Симботическая сущность",
      :level 2,
      :description
-     "At 2nd level, you gain the ability to channel magic into your spores. As an action, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:\n• When you deal your Halo of Spores damage, roll the damage die a second time and add it to the total.\n• Your melee weapon attacks deal an extra 1d6 poison damage to any target they hit. These benefits last for 10 minutes. until you lose all these temporary hit points, or until you use your Wild Shape again."}
+     "На 2 уровне Вы получаете способность вливать магию в Ваши споры. Действием вы можете потратить одно использование Дикого облика, пробуждая споры вместо превращения в звериную форму. Вы получаете 5 временных хита за каждый уровень друида. Пока эта способность действует, вы получаете следующие преимущества.\n— Когда Вы наносите урон Облаком спор, добавьте вторую кость урона.\n— Ваши атаки рукопашным оружием наносят дополнительно 1к6 урона ядом.\nЭти преимущества длятся 10 минут, пока Вы не потеряете эти временные хиты или пока Вы снова не используете Дикий облик."}
     {:name "Грибное заражение",
      :level 6,
      :description
-     "At 6th level, your spores gain the ability to infest a corpse and animate it. If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing ic to stand up immediately with 1 hit point. The creature uses the zombie stat block in the Monster Manual. It remains animate for 1 hour, after which time it collapses and dies. In combat, the zombie's turn comes immediately after yours. lt obeys your mental commands, and the only action it can take is the Attack action, making one melee attack. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."}
+     "На 6 уровне Ваши споры дают Вам способность заразить ими труп и поднять его. Если зверь или гуманоид маленького или среднего размера умирает в пределах 10 футов от Вас, Вы можете реакцией поднять его, немедленно заставляя его стать с 1 хитом. Существо использует статблок зомби из Бестиария. Оно остаётся оживлённым 1 час, после чего падает и умирает.\nВ бою зомби ходит сразу после Вас. Оно подчиняется Вашим ментальным командам и из действий может выполнять только действие Атака, совершая одну рукопашную атаку оружием.\nВы можете использовать эту способность число раз, равное Вашему модификатору Мудрости (минимум один раз) и восстанавливаете все использования, завершив длинный отдых."}
     {:name "Распространение спор",
      :level 10,
      :description
-     "At 10th level, you gain the ability to seed an area with deadly spores. As a bonus action while your Symbiotic Entity feature is active, you can hurl spores up to 30 feet away. where they swirl in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active. Whenever a creature moves into the cube or starts its turn there, that creature takes your Halo of Spores damage, unless the creature succeeds on a Constitution saving throw against your spell save DC. A creature can take this damage no more than once per turn. While the cube of spores persists, you can't use your Halo of Spores reaction. "}
+     "На 10 уровне Вы получаете способность засеивать область смертоносными спорами. Пока активна Ваша Симботическая сущность, Вы можете бонусным действием метнуть споры на расстояние до 30 футов, где они начинают клубиться 10-футовым кубом на 1 минуту. Споры исчезают раньше, если Вы снова используете эту способность, разгоните их бонусным действием или Ваша Симботическая сущность перестанет действовать.\nЕсли существо входит в этот куб или начинает в нём свой ход, оно получает урон от Вашего Облака спор, если не пройдёт испытание Телосложения против Вашей сложности заклинаний. Существо не может получать этот урон чаще, чем один раз в ход.\nПока куб спор существует, Вы не можете использовать Ваше Облако спор реакцией."}
     {:name "Грибное тело",
      :level 14,
      :description
-     "At 14th level, the fungal spores in your body alter you: you can't be blinded, deafened, frightened, or poisoned, and any critical hit against you counts as a normal hit instead, unless you're incapacitated. "}],
+     "На 14-м уровне грибные споры в Вашем теле изменяют Вас: Вы не можете быть ослеплены, оглушены, отравлены, и, пока Вы в сознании, все критические попадания по Вам считаются обычными попаданиями."}],
    :level-modifiers
    [{:type :spell,
      :level 2,
